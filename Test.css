@@ -4,8 +4,10 @@
 }
 
 .main {
-    margin-top: 20px;
-    background-color: pink;
+    margin-top: 0px;
+    width: 1000px;
+    height: 1000px;
+    background-color: red;
     position: relative;
 }
 
@@ -31,4 +33,11 @@
 
 .d {
     background-color: violet;
+}
+
+.img {
+    background-image: url(CoolFlixBackground.jpeg);
+    top: 0px;
+    height: 100%;
+    width: 100%;
 }
