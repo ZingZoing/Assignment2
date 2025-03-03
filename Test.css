@@ -3,41 +3,26 @@
     margin: 0px;
 }
 
-.main {
+.background {
     margin-top: 0px;
-    width: 1000px;
+    width: 100%;
     height: 1000px;
-    background-color: red;
-    position: relative;
-}
-
-.box {
-    height: 100px;
-    width: 100px;
-}
-
-.a {
-    background-color: red;
-    position: absolute;
-    left: 200px;
-    top: 100px;
-}
-
-.b {
-    background-color: green;
-}
-
-.c {
-    background-color: blue;
-}
-
-.d {
-    background-color: violet;
+    background-color: rgb(173, 173, 173);
 }
 
 .img {
     background-image: url(CoolFlixBackground.jpeg);
+    filter: brightness(0.2);
     top: 0px;
     height: 100%;
     width: 100%;
+}
+
+.cool {
+    background-image: url(CoolTransparent.jpeg);
+    top: 20%;
+    right: 50%;
+    width: 512px;
+    height: 512px;
+    position: absolute;
 }
