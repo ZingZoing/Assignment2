@@ -10,6 +10,15 @@
     background-color: rgb(173, 173, 173);
 }
 
+.tester {
+    background-color: green;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height:50%;
+    position: absolute;
+}
+
 .img {
     background-image: url(CoolFlixBackground.jpeg);
     filter: brightness(0.2);
@@ -21,15 +30,19 @@
 .cool {
     background-image: url(CoolTransparent.jpeg);
     top: 20%;
-    right: 50%;
+    left: 25%;
     width: 512px;
     height: 512px;
+    position: absolute;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    top: 25%;
+    left: 25%;
     width: 50%;
     position: absolute;
   }
