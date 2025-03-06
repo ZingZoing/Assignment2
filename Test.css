@@ -10,7 +10,7 @@
     background-color: rgb(0, 0, 0);
 }
 
-.Bottom {
+.Footer {
     background-color: rgb(0, 0, 0);
     top: 100%;
     width: 100%;
@@ -18,22 +18,83 @@
     position: absolute;
 }
 
-.BottomBox {
-    width: 100px;
+.FooterBox {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255,255,255);
+    width: 200px;
     height: 50px;
+    font-size: 15px;
+    text-align: left;
+    position: absolute;
+    cursor: pointer;
 }
 
-.BottomBoldBox {
+.FooterBoldBox {
     font-weight: bold;
-    color: rgb(0,255,255);
-    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255,255,255);
+    width: 200px;
     height: 75px;
+    font-size: 20px;
+    text-align: left;
     position: absolute;
 }
 
 .About {
     top: 0%;
-    left: 10%;
+    left: 5%;
+}
+.Help {
+    top: 0%;
+    left: 30%;
+}
+.LawOrder {
+    top: 0%;
+    left: 55%;
+}
+.Media {
+    top: 0%;
+    left: 80%;
+}
+
+.WhoWeAre {
+    top: 15%;
+    left: 5%;
+}
+.Hiring {
+    top: 25%;
+    left: 5%;
+}
+
+.Payments {
+    top: 15%;
+    left: 30%;
+}
+.Delivery {
+    top: 25%;
+    left: 30%;
+}
+.ContactUs {
+    top: 35%;
+    left: 30%;
+}
+
+.TermsNService {
+    top: 15%;
+    left: 55%;
+}
+.Cookies {
+    top: 25%;
+    left: 55%;
+}
+
+.Youtube {
+    top: 15%;
+    left: 80%;
+}
+.Instagram {
+    top: 25%;
+    left: 80%;
 }
 
 .GradiantTop {
@@ -68,15 +129,6 @@
     height: 100%;
 }
 
-.tester {
-    background-color: green;
-    top: 25%;
-    left: 25%;
-    width: 50%;
-    height: 50%;
-    position: absolute;
-}
-
 .BackMovies {
     background-image: url(CoolFlixBackground.jpeg);
     filter: brightness(0.2);
@@ -101,14 +153,15 @@
     position: absolute;
   }
 
-  .Button {
+  .TopButton {
     background-color: rgb(0, 155, 0);
     border: rgb(0, 120, 0);
     color: white;
-    padding: 16px 32px;
+    padding: 16px 40px;
     top: 0px;
     text-align: center;
     margin-right:auto;
+    margin-top:auto;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -117,9 +170,15 @@
     cursor: pointer;
     position: absolute;
   }
-  .Button:hover {
+  .TopButton:hover {
     background-color: rgb(0, 120, 0);
-    color: white;
+    padding: 18px 44px;
+    transition-duration: 0.3s;
+  }
+
+  .TopButton:active {
+    background-color: rgb(0, 80, 0);
+    padding: 16px 40px;
     transition-duration: 0.3s;
   }
 
@@ -127,5 +186,129 @@
     right: 20px;
   }
   .SignUp {
-    right: 150px;
+    right: 160px;
+  }
+
+  .Arrow {
+    
+
+    top: 0px;
+    top: 30%;
+    height: 40%;
+    right: 0%;
+    width: 6%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    position: absolute;
+  }
+
+  .ShowButton {
+    text-align: center;
+    margin-right:auto;
+    margin-top:auto;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    border: none;
+  }
+  .ShowButton:hover {
+    background-color: rgba(100,100,100,0.75);
+    transition-duration: 0.3s;
+  }
+  .ShowButton:focus {
+    background-color: rgba(100,100,100,1);
+    width: 100%;
+    position: absolute;
+    transition-duration: 0.8s;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+    margin-top: 0px;
+    position: absolute;
+    padding-top: 200px;
+    bottom: 0%;
+    width: 100%;
+  }
+
+  .MoviesBackground {
+    background-color: rgba(100,100,100,0.5);
+    height: 100%;
+    width: 6%;
+    right: 0%;
+    position: absolute;
+    overflow-x: hidden;
+  }
+
+  .DisplayMovie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 125px;
+    position: absolute;
+  }
+  .DisplayMovie:hover {
+    filter:brightness(0.5);
+    transition-duration: 0.3s;
+    width: 130px;
+    cursor: pointer;
+  }
+  .DisplayMovie:active {
+    filter:brightness(0.2);
+    transition-duration: 0.3s;
+    width: 125px;
+  }
+  .MovieText {
+    color: rgb(255,255,255);
+    left: 100px;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  .FeaturedSec {
+    top: 12%;
+  }
+  .HeroSec {
+    top: 52%;
+  }
+
+  .Movie1 {
+    top: 20%;
+    left: 100px;
+  }
+  .Movie2 {
+    top: 20%;
+    left: 300px;
+  }
+  .Movie3 {
+    top: 20%;
+    left: 500px;
+  }
+  .MovieNoWayHome {
+    top: 60%;
+    left: 100px;
+  }
+  .Movie4 {
+    top: 60%;
+    left: 300px;
+  }
+  .Movie5 {
+    top: 60%;
+    left: 500px;
+  }
+  .Movie6 {
+    top: 60%;
+    left: 700px;
+  }
+  .Movie7 {
+    top: 60%;
+    left: 900px;
+  }
+  .Movie8 {
+    top: 60%;
+    left: 1100px;
   }
