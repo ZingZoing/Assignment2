@@ -29,6 +29,11 @@
     cursor: pointer;
 }
 
+.FooterBox:hover {
+  color: rgb(150,150,150);
+  transition-duration: 0.5s;
+}
+
 .FooterBoldBox {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -190,8 +195,6 @@
   }
 
   .Arrow {
-    
-
     top: 0px;
     top: 30%;
     height: 40%;
@@ -240,6 +243,16 @@
     overflow-x: hidden;
   }
 
+  .MovieText {
+    color: rgb(255,255,255);
+    left: 100px;
+    font-size: 25px;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
   .DisplayMovie {
     display: block;
     margin-left: auto;
@@ -259,16 +272,6 @@
     transition-duration: 0.3s;
     width: 125px;
   }
-  .MovieText {
-    color: rgb(255,255,255);
-    left: 100px;
-    font-size: 25px;
-    width: 200px;
-    height: 50px;
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-  }
   .FeaturedSec {
     top: 12%;
   }
@@ -282,11 +285,11 @@
   }
   .Movie2 {
     top: 20%;
-    left: 300px;
+    left: 250px;
   }
   .Movie3 {
     top: 20%;
-    left: 500px;
+    left: 400px;
   }
   .MovieNoWayHome {
     top: 60%;
@@ -294,21 +297,21 @@
   }
   .Movie4 {
     top: 60%;
-    left: 300px;
+    left: 250px;
   }
   .Movie5 {
     top: 60%;
-    left: 500px;
+    left: 400px;
   }
   .Movie6 {
     top: 60%;
-    left: 700px;
+    left: 550px;
   }
   .Movie7 {
     top: 60%;
-    left: 900px;
+    left: 700px;
   }
   .Movie8 {
     top: 60%;
-    left: 1100px;
+    left: 850px;
   }
